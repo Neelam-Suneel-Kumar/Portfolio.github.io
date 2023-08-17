@@ -1,0 +1,61 @@
+.wrapper {
+    margin-top: 80px;
+    position: relative;
+    width: 400px;
+    height: 460px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    border-radius: 2em;
+    margin-top: 4%;
+}
+.wrapper h1 {
+    font-size: 2em;
+    color: #162938;
+}
+
+.input-box label {
+    color: #162938;
+}
+
+button {
+    width: 28%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5em;
+    cursor: pointer;
+    background: #162938;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+#reset {
+    border-radius: 5em;
+    cursor: pointer;
+    background: #162938;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+
+.wrapper #reset{
+    border-radius: 2em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    width: 17px;
+    height: 17px;
+}
+
+input[type="radio"]:checked + label{
+    color: #fff;
+}

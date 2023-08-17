@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <link rel="icon" href="SuneelKumar-1.jpg">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body background="background.jpg">
+        
+    <center>
+    <div class="wrapper">
+            <h1>Contact Me</h1>
+    <form action="ThankYou.html" target="_blank">
+
+        <table>
+        <div class="input-box">
+            <tr>
+                <td><label for="f_name">First Name</label><td><input type="text" id="f_name" name="f_name" placeholder="Ex:Suneel" required pattern="[a-zA-Z]{3,15}"></td></td>
+            </tr>
+        </div>
+        <div class="input-box">
+            <tr>
+                <td><label for="l_name">Last Name</label><td><input type="text" id="l_name" name="l_name" placeholder="Ex:Neelam" required pattern="[a-zA-Z]{3,15}"></td></td>
+            </tr>
+        </div>   
+        <div class="input-box"> 
+            <tr>
+                <td><label for="phone_no">Phone No</label><td><input type="tel" name="phone_no" id="phone_no" placeholder="8179675459" required pattern="[6-9]{1}[0-9]{9}"></td></td>
+            </tr>
+        </div>  
+        <div class="input-box">  
+            <tr>
+                <td><label for="WhatsApp_No">WhatsApp_No</label><td><input type="tel" name="WhatsApp_No" id="WhatsApp_No" placeholder="8179675459" required pattern="[6-9]{1}[0-9]{9}"></td></td>
+            </tr>
+        </div>    
+        <div class="input-box">  
+            <tr>
+                <td><label for="email">Email</label><td><input type="email" name="email" id="email" placeholder="nbst@gmail" required></td></td>
+            </tr>
+        </div>
+        <div class="input-box">    
+            <tr>
+                <td><label for="dob">DOB</label><td><input type="date" name="date" id="dob" required></td></td>
+            </tr>
+        </div>
+        <div class="input-box">    
+            <tr>
+                <td><label for="Gender">Gender</label><td>
+                <input type="radio" name="gender" id="Gender" value="M">
+                <label for="Gender">Male</label>
+                <input type="radio" name="gender" id="Gender" value="F">
+                <label for="Gender">Female</label>
+                <input type="radio" name="gender" id="Gender" value="C">
+                <label for="Gender">Custom</label></td></td>
+            </tr>
+        </div>
+        <div class="input-box">    
+            <tr>
+                <td><label for="Country">Select Country</label></td>
+                <td>
+                    <select name="Country" id="Conuntry">
+                        <option value="INDIA">INDIA</option>
+                        <option value="USA">USA</option>
+                        <option value="JAPAN">JAPAN</option>
+                    </select>
+                </td>
+            </tr>
+        </div>
+            <tr>
+                <td><input type="reset" id="reset"></td>
+            </tr> 
+    </table>
+    <label>Comments</label><br>
+    <textarea cols="39" rows="5"></textarea><br> 
+    <button type="submit">Submit</button>   
+    </form>
+</div>
+</center>
+</body>
+</html>
